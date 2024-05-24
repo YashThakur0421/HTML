@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/action">
+        <div>
+            <label for="username">Username : </label>
+            <input type="text" id="username" placeholder="enter username" id="username" name="user">
+        </div>
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" id="password" placeholder="enter password" id="password" name="pass">
+        </div>
+        <div>
+            <label for="age">Age : </label>
+            <input type="number" id="age" placeholder="enter age" id="age" name="age">
+        </div>
+        <button>Submit</button>
+        <button type="button">Hello</button>
+        <button type="reset">Reset</button>
+
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Search in youtube" name="search_query">
+        <button>Search</button>
+    </form>
+
+    <hr>
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search in Google" name="q">
+        <button>Search</button>
+    </form>
+    <hr>
+    <form action="/server">
+        <input type="checkbox" name="age" id="age">
+        <label for="age"> I am 18 + </label>
+        <br>
+        <div>
+            <input type="radio" name="Fruits" id="Apple" value="Apple" value="Apple">
+            <label for="Apple">Apple</label>
+            <input type="radio" name="Fruits" id="Mango" value="Mango" value="Mango">
+            <label for="Mango">Mango</label>
+            <input type="radio" name="Fruits" id="Banana" value="Banana" value="Banana">
+            <label for="Banana">Banana</label>
+        </div>
+        <div>
+            Choose the subject:
+            <input type="checkbox" name="sub" id="Math" value="Math">
+            <label for="MAth">Math</label>
+            <input type="checkbox" name="sub" id="English" value="English">
+            <label for="English">English</label>
+            <input type="checkbox" name="sub" id="Hindi" value="Hindi">
+            <label for="Hindi">Hindi</label>
+        </div>
+        <div>
+            Choose your profession:
+            <select name="profession" id="profession">
+                <option value="">Select your option</option>
+                <option value="stu">Student</option>
+                <option value="stu">Developer</option> 
+                <option value="stu">Actor</option>
+            </select>
+        </div>
+        <div>
+            <label for="vol">Volume</label>
+            <input type="range" id="vol" name="vol" max="100" step="10">
+            <button>Submit</button>
+        </div>
+        <br>
+        <label for="Feedback">Please give your feedback</label>
+        <textarea name="feedback" id="feedback" placeholder="Write your feedback here"></textarea>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
